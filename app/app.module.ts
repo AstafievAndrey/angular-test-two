@@ -4,10 +4,13 @@ import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { TabsComponent } from './components/tabs/tabs.component';
+import { TabComponent } from './components/tab/tab.component';
+import { TabContentComponent } from './components/tab-content/tab-content.component';
+import { TabTitleComponent } from './components/tab-title/tab-title.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule ],
-  declarations: [ AppComponent, TabsGroupComponent],
+  declarations: [ AppComponent, TabsComponent, TabComponent, TabContentComponent, TabTitleComponent],
   bootstrap:    [ AppComponent ],
   schemas: [ NO_ERRORS_SCHEMA ]
 })
