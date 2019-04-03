@@ -1,0 +1,11 @@
+import { Component } from '@angular/core';
+
+@Component({
+  selector: 'tabs',
+  templateUrl: './tabs.component.html',
+  styleUrls: [ './tabs.component.css' ]
+})
+export class TabsComponent  {
+  public tabs = [ 1, 2 ];
+
+}
